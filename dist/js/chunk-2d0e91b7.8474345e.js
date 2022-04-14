@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e91b7"],{"8bb9":function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement;e._self._c;return e._m(0)},s=[function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"weiwei"},[t("h1",[e._v("小薇薇是最可爱最漂亮的小乖乖")]),t("p",[e._v("给小薇薇用来存放图片的界面")])])}],i=t("2877"),l={},r=Object(i["a"])(l,c,s,!1,null,null,null);n["default"]=r.exports}}]);
+//# sourceMappingURL=chunk-2d0e91b7.8474345e.js.map
