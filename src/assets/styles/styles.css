@@ -72,15 +72,19 @@
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-html, body {
+html {
   padding: 0;
   margin: 0;
+  background-color: lightblue;
 }
 body {
   color: #325050;
   background: #fff;
+  border-radius: 10px;
   font-family: 'Libre Baskerville', sans-serif;
   font-size: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 a {
@@ -116,25 +120,23 @@ h1 {
   padding-top: 0;
   padding-bottom: 5px;
   border-bottom: none;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
   font-size: 3.2em;
-  text-transform: uppercase;
 }
 
 h2 {
   display: block;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border-top: none;
-  color: rgba(255,255,255,0.6);
+  font-family: 'Libre Baskerville', sans-serif;
   font-size: 1.6em;
-  font-style: italic;
 }
 
 h3 {
   margin: 2em 0 0 0;
   color: #2e484c;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
   font-size: 1.8em;
   font-weight: normal;
   text-transform: uppercase;

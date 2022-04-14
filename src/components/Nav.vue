@@ -1,8 +1,9 @@
 <template>
   <div class="topnav">
-    <router-link to="/" class="topnav-item">Home</router-link> 
-    <router-link to="/about" class="topnav-item">About</router-link>
+    <p class="name"><strong>zihang</strong></p>
     <router-link to="/weiwei" class="topnav-item">WeiWei</router-link>
+    <router-link to="/about" class="topnav-item">About</router-link>
+    <router-link to="/" class="topnav-item">Home</router-link>
   </div>
 </template>
 <script>
@@ -11,20 +12,27 @@
   };
 </script>
 <style scoped>
-.topnav{
+.topnav {
   overflow: hidden;
   margin-top: 5px;
-  margin-bottom: 10px;
   width: 100%;
-  text-align: center;
+  border: 5px solid lightblue;
+}
+
+.topnav .name {
+  position: relative;
+  float: left;
+  margin-left: 5%;
+  color: #0d8ba1;
 }
 
 .topnav .topnav-item {
-  float: left;
+  float: right;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-right: 10px;
 }
 
 .topnav .topnav-item:hover {
