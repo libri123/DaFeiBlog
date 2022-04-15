@@ -29,14 +29,13 @@ export default {
     float: right;
     margin-right: 15%;
     border-radius: 50%;
-    width: 300px;
+    width:25%;
   }
 
   #full-name {
-    margin: 100px 50px 25px 100px;
+    margin: 10% 5% 3% 10%;
   }
   p {
-    margin-left: 100px;
-    margin-bottom: 25px;
+    margin-left: 10%;
   }
 </style>

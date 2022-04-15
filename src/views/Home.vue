@@ -2,6 +2,7 @@
   <div class="home">
     <Intro/>
     <Work/>
+    <Education/>
   </div>
 </template>
 
@@ -9,12 +10,14 @@
 // @ is an alias to /src
 import Intro from '@/components/Intro.vue';
 import Work from '../components/Work.vue';
+import Education from '../components/Education.vue';
 
 export default {
   name: 'Home',
   components: {
     Intro,
-    Work
+    Work,
+    Education
   }
 }
 </script>
