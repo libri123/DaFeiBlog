@@ -1,7 +1,7 @@
 <template>
   <div class="intro">
     <div class="intro-title">
-      <img class="intro-photo" alt="Zihang logo" src="../assets/pig.png">
+      <img class="intro-photo" alt="Zihang logo" src="../assets/personalPhoto.jpg">
       <h1 id="full-name">Wang Zihang</h1>
     </div>
     <p>
@@ -22,17 +22,18 @@ export default {
 <style scoped>
   .intro {
     border: 5px solid lightblue;
+    height: 600px;
   }
 
   img {
     float: right;
-    margin-right: 20%;
+    margin-right: 15%;
     border-radius: 50%;
-    width: 100px;
+    width: 300px;
   }
 
   #full-name {
-    margin: 150px 50px 25px 100px;
+    margin: 100px 50px 25px 100px;
   }
   p {
     margin-left: 100px;

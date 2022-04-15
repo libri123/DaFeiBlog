@@ -1,8 +1,8 @@
 <template>
   <div class="topnav">
     <p class="name"><strong>zihang</strong></p>
-    <router-link to="/weiwei" class="topnav-item">WeiWei</router-link>
-    <router-link to="/about" class="topnav-item">About</router-link>
+    <router-link to="/gallary" class="topnav-item">Gallary</router-link>
+    <router-link to="/article" class="topnav-item">Article</router-link>
     <router-link to="/" class="topnav-item">Home</router-link>
   </div>
 </template>
